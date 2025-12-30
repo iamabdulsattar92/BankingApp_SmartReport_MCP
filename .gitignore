@@ -16,3 +16,9 @@ example/smart-report.html
 example/test-history.json
 example/parallel/smart-report.html
 example/parallel/test-history.json
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

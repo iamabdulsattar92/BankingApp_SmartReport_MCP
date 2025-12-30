@@ -1,0 +1,6 @@
+{
+  "transactionType": "Transfer",
+  "amount": "100",
+  "transferToAccount": "9876543210",
+  "description": "Test transfer"
+}

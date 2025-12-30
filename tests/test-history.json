@@ -1,0 +1,243 @@
+{
+  "runs": [],
+  "tests": {
+    "banking-test.spec.ts::Verify Quick Transactions Flow": [
+      {
+        "passed": true,
+        "duration": 10907,
+        "timestamp": "2025-12-30T12:32:49.609Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 8087,
+        "timestamp": "2025-12-30T12:36:10.403Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 12469,
+        "timestamp": "2025-12-30T12:36:37.150Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 44765,
+        "timestamp": "2025-12-30T12:43:53.481Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 11566,
+        "timestamp": "2025-12-30T12:45:01.184Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 11893,
+        "timestamp": "2025-12-30T12:49:32.883Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 11723,
+        "timestamp": "2025-12-30T12:54:49.763Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 9560,
+        "timestamp": "2025-12-30T12:58:14.257Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 11271,
+        "timestamp": "2025-12-30T13:00:58.627Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 17300,
+        "timestamp": "2025-12-30T13:01:40.518Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "banking-test.spec.ts::Verify tab names in the homepage": [
+      {
+        "passed": true,
+        "duration": 11041,
+        "timestamp": "2025-12-30T12:45:01.184Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 8608,
+        "timestamp": "2025-12-30T12:49:32.883Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 9113,
+        "timestamp": "2025-12-30T12:54:49.763Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 8343,
+        "timestamp": "2025-12-30T12:58:14.257Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 8446,
+        "timestamp": "2025-12-30T13:00:58.627Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 11586,
+        "timestamp": "2025-12-30T13:01:40.518Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "runId": "run-1767098160551",
+      "timestamp": "2025-12-30T12:36:00.551Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 9852,
+      "passRate": 0
+    },
+    {
+      "runId": "run-1767098183083",
+      "timestamp": "2025-12-30T12:36:23.083Z",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 14067,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1767098529449",
+      "timestamp": "2025-12-30T12:42:09.449Z",
+      "total": 0,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 13,
+      "passRate": 0
+    },
+    {
+      "runId": "run-1767098557392",
+      "timestamp": "2025-12-30T12:42:37.392Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 1,
+      "duration": 76088,
+      "passRate": 0
+    },
+    {
+      "runId": "run-1767098677237",
+      "timestamp": "2025-12-30T12:44:37.237Z",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 23946,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1767098948515",
+      "timestamp": "2025-12-30T12:49:08.515Z",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 24367,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1767099264133",
+      "timestamp": "2025-12-30T12:54:24.133Z",
+      "total": 2,
+      "passed": 1,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 25629,
+      "passRate": 50
+    },
+    {
+      "runId": "run-1767099472024",
+      "timestamp": "2025-12-30T12:57:52.024Z",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 22232,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1767099634599",
+      "timestamp": "2025-12-30T13:00:34.599Z",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 0,
+      "duration": 24028,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1767099667516",
+      "timestamp": "2025-12-30T13:01:07.516Z",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 1,
+      "slow": 2,
+      "duration": 33001,
+      "passRate": 100
+    }
+  ]
+}
