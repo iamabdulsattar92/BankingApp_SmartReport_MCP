@@ -28,16 +28,18 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['list'],
-    ['./dist/smart-reporter.js', {
-      outputFile: 'smart-report.html',
-      historyFile: 'test-history.json',
-      maxHistoryRuns: 10,
-      enableAIRecommendations: true,
-      stabilityThreshold: 70,
-    }],
-  ],
+ reporter: [
+  ['list'],
+  ['html', { outputFolder: 'playwright-report', open: 'never' }],
+  ['./dist/smart-reporter.js', {
+    outputFile: 'smart-report.html',
+    historyFile: 'test-history.json',
+    maxHistoryRuns: 10,
+    enableAIRecommendations: true,
+    stabilityThreshold: 70,
+  }],
+],
+
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
